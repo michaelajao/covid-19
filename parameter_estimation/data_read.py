@@ -8,12 +8,12 @@ Last modified: 04.13.2020
 import pandas as pd
 import matplotlib.pyplot as plt
 
-world_confirmed = pd.read_csv("data/time_series_covid19_confirmed_global.csv")
-world_deaths = pd.read_csv("data/time_series_covid19_deaths_global.csv")
-world_recovered = pd.read_csv("data/time_series_covid19_recovered_global.csv")
+world_confirmed = pd.read_csv("C:/Users/ajaoo/Documents/GitHub/covid-19/parameter_estimation/data/time_series_covid19_confirmed_global.csv")
+world_deaths = pd.read_csv("C:/Users/ajaoo/Documents/GitHub/covid-19/parameter_estimation/data/time_series_covid19_deaths_global.csv")
+world_recovered = pd.read_csv("C:/Users/ajaoo/Documents/GitHub/covid-19/parameter_estimation/data/time_series_covid19_recovered_global.csv")
 
 
-world_population = pd.read_csv("data/world_population.csv")
+world_population = pd.read_csv("C:/Users/ajaoo/Documents/GitHub/covid-19/parameter_estimation/data/world_population.csv")
 
 replace_dict = {'Bahamas, The': 'Bahamas', 'Brunei Darussalam': 'Brunei', 'Czech Republic': 'Czechia', 'Egypt, Arab Rep.': 'Egypt', 'Gambia, The': 'Gambia', 'Iran, Islamic Rep.': 'Iran', 'Korea, Rep.': 'Korea, South', 'Kyrgyz Republic': 'Kyrgyzstan', 'Russian Federation': 'Russia', 'St. Lucia': 'Saint Lucia', 'St. Vincent and the Grenadines': 'Saint Vincent and the Grenadines', 'Slovak Republic': 'Slovakia', 'United States': 'US', 'Venezuela, RB': 'Venezuela', 'Syrian Arab Republic': 'Syria'}
 
